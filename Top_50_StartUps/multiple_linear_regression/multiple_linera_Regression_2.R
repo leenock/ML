@@ -1,6 +1,7 @@
 # Multiple Linear Regression~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Importing the data set
+# include the directory of your dataset.
 dataset = read.csv("50_Startups.csv")
 head(dataset)
 dim(dataset)
