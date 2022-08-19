@@ -1,6 +1,6 @@
 # Read a dataset from a Excel file
 library(readxl)
-mart = read_excel("C:/Users/leenock/OneDrive - Asia Pacific University/Desktop/Github/ML/Data_handling_in_R/AmazingMartEU2.xlsx", sheet = "OrderBreakdown")
+mart = read_excel("AmazingMartEU2.xlsx", sheet = "OrderBreakdown")
 View(mart)
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
