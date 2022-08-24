@@ -3,10 +3,10 @@
 # install.packages("RCurl") ~ A wrapper for 'libcurl' Provides functions to allow one to compose general HTTP requests and provides convenient functions to fetch URIs, get & post forms, etc.
 library(RCurl)
 fileURL = "http://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data"
-download.file(fileURL, destfile="C:/APU/CT046-3-M-AML/CT046 - LABS/Lab 3 - Naive Bayes/breast-cancer-wisconsin.data", method="libcurl")
+download.file(fileURL, destfile="breast-cancer-wisconsin.data", method="libcurl")
 
 # read the data
-df <- read.table("C:/APU/CT046-3-M-AML/CT046 - LABS/Lab 3 - Naive Bayes/breast-cancer-wisconsin.data", na.strings = "?", sep=",")
+df <- read.table("breast-cancer-wisconsin.data", na.strings = "?", sep=",")
 str(df)
 dim(df)
 View(df)
